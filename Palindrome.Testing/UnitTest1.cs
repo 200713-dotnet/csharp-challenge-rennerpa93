@@ -3,13 +3,12 @@ using Xunit;
 
 namespace Palindrome.Testing
 {
-  public class UnitTest1
-  {
-    [Fact]
-    public void IsPalindromeTest
+    public class UnitTest1
     {
-
-      bool checker = PalindromeChecker();
+        [Fact]
+        public void IsPalindromeTest()
+        {
+          
+        }
     }
-  }
 }
