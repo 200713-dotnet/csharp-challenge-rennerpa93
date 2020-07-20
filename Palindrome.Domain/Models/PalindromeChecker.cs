@@ -1,9 +1,9 @@
-namespace Palindrome.Domain
+namespace Palindrome.Domain.Models
 {
-  class PalindromeChecker
+  public class PalindromeChecker
   {
 
-    public static bool IsPalindrome(string input)
+    public bool IsPalindrome(string input)
     {
       if (input.Length <= 1)
         return true;
